@@ -1,6 +1,10 @@
 import hotelPj from "../images/hotel.jpg";
 import dashboardPj from "../images/dashboard.jpg";
 import contactPj from "../images/contactin.jpg";
+import blogPj from "../images/BlogWebsite.png"
+import vuePj from "../images/reactionTimer.png"
+import vue2Pj from "../images/testTRacker.png"
+import portfo from "../images/portfolio.jpg"
 import { useDarkMode } from "../components/DarkMode";
 
 
@@ -24,31 +28,38 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Google Contact",
+      title: "Portfolio Project",
       desc: "Group Project with React",
-      img: contactPj,
-      aImg: "https://hotel-project-cjahgenxu-khant-nyar-ko-ko.vercel.app/",
+      img: portfo,
+      aImg: "https://team-l-portfolio.vercel.app/",
     },
     {
       id: 4,
-      title: "Hotel Project",
-      desc: "Group Project with React",
-      img: hotelPj,
-      aImg: "https://hotel-project-cjahgenxu-khant-nyar-ko-ko.vercel.app/",
+      title: "Goggle Contact Clone",
+      desc: "CRUD with React",
+      img: contactPj,
+      aImg: " https://team-l-contact.netlify.app/",
     },
     {
       id: 5,
-      title: "Admin Dashboard",
-      desc: "Group Project with React",
-      img: dashboardPj,
-      aImg: "https://admin-dashboard-xi-one.vercel.app/",
+      title: "Blog Website Design",
+      desc: "Class Project with HTML & CSS",
+      img: blogPj,
+      aImg: "https://blog-website-design.vercel.app/",
     },
     {
       id: 6,
-      title: "Google Contact",
-      desc: "Group Project with React",
-      img: contactPj,
-      aImg: "https://hotel-project-cjahgenxu-khant-nyar-ko-ko.vercel.app/",
+      title: "Ninja Reaction Timer",
+      desc: "Tutorial Project with Vue",
+      img: vuePj,
+      aImg: "https://ninja-reaction-timer.vercel.app/",
+    },
+    {
+      id: 7,
+      title: "Test Tracker App",
+      desc: "Tutorial Project with React",
+      img: vue2Pj,
+      aImg: "https://task-tracker-app-seven.vercel.app/",
     },
   ];
   return (
