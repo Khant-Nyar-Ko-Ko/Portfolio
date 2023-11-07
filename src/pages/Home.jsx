@@ -18,7 +18,6 @@ const Home = () => {
           <div className=" flex flex-col justify-center mb-5 md:mb-0 ">
             <div className=" animate__animated animate__bounceIn flex flex-col gap-0 md:gap-5 z-0">
               <h2
-                data-aos="fade-up"
                 className={`${
                   isDarkMode ? "text-slate-100" : "text-green-800"
                 } text-lg md:text-4xl flex  font-semibold `}
