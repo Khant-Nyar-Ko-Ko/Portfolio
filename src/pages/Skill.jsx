@@ -30,7 +30,7 @@ const experience = [
           >
             Experiences
           </h2>
-          <div>
+          <div className="">
             <div
               id="exp"
               className={`py-3 ${isDarkMode ? "dark:bg-gray-800" : "bg-white"}`}
@@ -44,12 +44,12 @@ const experience = [
                 >
                   <div
                     className={`content ${
-                      isDarkMode ? "dark:text-white" : "text-black"
+                      isDarkMode ? "dark:text-white" : "text-green-500"
                     }`}
                   >
                     <p
                       className={`heading ${
-                        isDarkMode ? "dark:text-white" : "text-black"
+                        isDarkMode ? "dark:text-white" : "text-green-500"
                       }`}
                     >
                       {exp?.position}
@@ -57,14 +57,14 @@ const experience = [
                     <div className="flex gap-36">
                       <p
                         className={`para ${
-                          isDarkMode ? "dark:text-gray-300" : "text-black"
+                          isDarkMode ? "dark:text-gray-300" : "text-green-500"
                         }`}
                       >
                         {exp.work}
                       </p>
                       <p
                         className={`para ${
-                          isDarkMode ? "dark:text-gray-300" : "text-black"
+                          isDarkMode ? "dark:text-gray-300" : "text-green-500"
                         }`}
                       >
                         {exp.time}
@@ -72,7 +72,7 @@ const experience = [
                     </div>
                     <p
                       className={`para ${
-                        isDarkMode ? "dark:text-gray-300" : "text-black"
+                        isDarkMode ? "dark:text-gray-300" : "text-green-500"
                       } ${exp?.about}`}
                     >
                       {exp.about}
@@ -81,11 +81,11 @@ const experience = [
                       href="https://github.com/Khant-Nyar-Ko-Ko"
                       className={`btn ${
                         isDarkMode
-                          ? "dark:bg-blue-600 dark:text-white"
+                          ? "dark:bg-blue-600 "
                           : "bg-blue-500 text-white"
                       }`}
                     >
-                      Read more
+                      Know more
                     </a>
                   </div>
                 </div>

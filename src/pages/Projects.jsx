@@ -68,28 +68,34 @@ const Projects = () => {
         name="projects"
         id="projects"
         className={`${
-          isDarkMode ? "bg-gray-700" : "bg-green-50"
+          isDarkMode ? "bg-gray-700" : "bg-yellow-50"
         } w-screen  min-vh`}
       >
         <div className=" w-screen flex flex-col justify-center gap-16 items-center min-vh mt-[50px] ">
-          <h2 className=" text-2xl md:text-3xl font-serif text-green-500">
+          <h2 className=" text-2xl md:text-3xl md:pt-[50px] font-serif text-green-500">
             My Projects
           </h2>
           <div className="parent w-[300px]">
             <div className=" grid grid-cols-1 md:grid-cols-3 gap-10 mb-5 md:mb-0">
               {pjData?.map((item) => (
                 <div className="card z-20" key={item.id}>
-                  <div className="content-box">
-                    <span className="card-title">{item.title}</span>
-                    <p className="card-content">{item.desc}</p>
+                  <a href={item?.aImg}>
+                    <div className="content-box">
+                      <span className="card-title">{item.title}</span>
+                      <p className="card-content text-decoration-none">{item.desc}</p>
 
-                    <a className="see-more" href={item?.aImg}>
-                      View Demo
-                    </a>
-                  </div>
-                  <div className="date-box">
-                    <img src={item.img} className=" w-[100%] h-[100%]" alt="" />
-                  </div>
+                      <a className="see-more" href={item?.aImg}>
+                        View Demo
+                      </a>
+                    </div>
+                    <div className="date-box">
+                      <img
+                        src={item.img}
+                        className=" w-[100%] h-[100%]"
+                        alt=""
+                      />
+                    </div>
+                  </a>
                 </div>
               ))}
             </div>

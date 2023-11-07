@@ -4,6 +4,8 @@
 @tailwind utilities;
 
 
+
+
 * {
   cursor: url("./images/icons8-cursor-24.png"), auto !important;
   user-select: none;
@@ -209,29 +211,13 @@
   transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
   z-index: 0;
   background-color: #ddffea;
+  color: #ffffff;
 }
-
-/* .dark #exp .card {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 500px;
-  height: 300px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  padding: 22px;
-  overflow: hidden;
-  border-radius: 10px;
-  transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
-  z-index: 0;
-  background-color: #686868;
-} */
-
 
 @media screen and (max-width: 390px) {
   #exp .card {
-    width: 300px;
-    height: auto; /* Set height to auto to maintain aspect ratio */
+    width: 200px;
+    height: 100px; /* Set height to auto to maintain aspect ratio */
     padding: 10px; /* Adjust padding as needed */
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Smaller shadow for smaller card */
     border-radius: 5px; /* Reduce border radius */
@@ -354,11 +340,11 @@
 
 #exp .card:hover .btn {
   color: #212121;
-  background: #e8e8e8;
+  background: #026d09;
 }
 
 #exp .card:hover .heading {
-  color: #ffffff;
+  color: #fffcfc;
 }
 
 #exp .card:hover .para {

@@ -3,6 +3,8 @@ import { useDarkMode } from "../components/DarkMode";
 
 const About = () => {
   const { isDarkMode } = useDarkMode();
+  const cvUrl =
+    "https://drive.google.com/uc?export=download&id=1JcTr39RDSlMiwnWCxMvNuC8xUjKUkaO9";
   return (
     <section
       name="about"
@@ -45,13 +47,20 @@ const About = () => {
                 Got A Project?
               </button>
             </Link>
-            <button
-              className={`${
-                isDarkMode ? "bg-green-700" : "bg-green-900"
-              } w-[130px] md:w-[180px] mb-10 md:mb-0 rounded py-2  text-[10px] md:text-base text-white hover:bg-green-700  border border-green-900`}
+            <a
+              href={cvUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              download="my_cv.pdf"
             >
-              Download CV
-            </button>
+              <button
+                className={`${
+                  isDarkMode ? "bg-green-700" : "bg-green-900"
+                } w-[130px] md:w-[180px] mb-10 md:mb-0 rounded py-2  text-[10px] md:text-base text-white hover:bg-green-700  border border-green-900`}
+              >
+                Download CV
+              </button>
+            </a>
           </div>
         </div>
         <div className=" w-[75%] mx-auto md:w-[600px]">
@@ -101,8 +110,11 @@ const About = () => {
               >
                 Born in
               </p>
-              <p className={`${isDarkMode ? 'text-green-500' : 'text-green-700'} px-4 font-semibold text-start py-0 md:py-2 text-sm md:text-base `}>
-             
+              <p
+                className={`${
+                  isDarkMode ? "text-green-500" : "text-green-700"
+                } px-4 font-semibold text-start py-0 md:py-2 text-sm md:text-base `}
+              >
                 Yangon,Myanmar
               </p>
             </div>
@@ -114,8 +126,11 @@ const About = () => {
               >
                 Mail
               </p>
-              <p className={`${isDarkMode ? 'text-green-500' : 'text-green-700'} px-4 font-semibold text-start py-0 md:py-2 text-sm md:text-base `}>
-             
+              <p
+                className={`${
+                  isDarkMode ? "text-green-500" : "text-green-700"
+                } px-4 font-semibold text-start py-0 md:py-2 text-sm md:text-base `}
+              >
                 kokhantnyar19@gmail.com
               </p>
             </div>
@@ -127,8 +142,13 @@ const About = () => {
               >
                 Phone
               </p>
-              <p className={`${isDarkMode ? 'text-green-500' : 'text-green-700'} px-4 font-semibold text-start py-0 md:py-2 text-sm md:text-base `}>
-             +6697820067</p>
+              <p
+                className={`${
+                  isDarkMode ? "text-green-500" : "text-green-700"
+                } px-4 font-semibold text-start py-0 md:py-2 text-sm md:text-base `}
+              >
+                +6697820067
+              </p>
             </div>
           </div>
         </div>
