@@ -49,8 +49,6 @@ const About = () => {
             </Link>
             <a
               href={cvUrl}
-              target="_blank"
-              rel="noopener noreferrer"
               download="my_cv.pdf"
             >
               <button
