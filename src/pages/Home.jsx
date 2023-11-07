@@ -92,7 +92,7 @@ const Home = () => {
               isDarkMode ? "text-green-500" : "text-green-900"
             } text-sm md:text-base`}
           >
-            +65997820067
+            +66997820067
           </p>
           <p
             className={`font-semibold ${
