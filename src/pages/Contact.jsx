@@ -21,7 +21,7 @@ const linkedin = "https://www.linkedin.com/in/khant-nyar-ko-ko-b993b3195/";
 const github = "https://github.com/Khant-Nyar-Ko-Ko";
 const twitter = "https://twitter.com/DamianS28619131";
 const mail = "mailto:kokhantnyar19@gmail.com";
-const phone = "tel:+65997820067";
+const phone = "tel:+66997820067";
 
 const Contact = () => {
   const { isDarkMode } = useDarkMode();
