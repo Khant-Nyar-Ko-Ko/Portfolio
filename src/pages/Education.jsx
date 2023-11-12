@@ -65,6 +65,14 @@ function EducationTimeline() {
       time: "2023 - present",
       studies: "Studies Bachelor Program of Software Engineering.",
     },
+    {
+      id: 9,
+      achievement: "Vue 3 for Beginners",
+      school: "The Net Ninja",
+      time: "2023",
+      studies:
+        "Studies the fundamentals of Vue 3 ",
+    },
   ];
   return (
     <section
